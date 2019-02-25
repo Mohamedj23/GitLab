@@ -1,0 +1,23 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root {
+   -fx-background-color: radial-gradient(center 50% 50% , radius 200px , #ffebcd, #008080);
+
+}
+#yalaBtn
+{
+    -fx-background-color:rgb(250,128,114);
+    
+ 	
+
+}
+#chooseBtn
+{
+    -fx-background-color:rgb(250,128,114);
+}
+#userImage
+{
+     -fx-border-radius: 50%;
+}

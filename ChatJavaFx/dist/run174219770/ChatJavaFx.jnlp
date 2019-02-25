@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ChatJavaFx.jnlp">
+  <information>
+    <title>ChatJavaFx</title>
+    <vendor>Esraa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ChatJavaFx.jar" size="19182" download="eager" />
+    <jar href="lib\CommonInterfaces.jar" size="3255" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ChatJavaFx" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="chatjavafx.ChatJavaFx"  name="ChatJavaFx" />
+  <update check="always"/>
+</jnlp>
